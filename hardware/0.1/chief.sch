@@ -186,7 +186,7 @@ U 1 1 5EF5E152
 P 1000 1950
 F 0 "J1" H 1107 2817 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1107 2726 50  0000 C CNN
-F 2 "" H 1150 1950 50  0001 C CNN
+F 2 "josh-connectors:USB_C_U262-161N-4BVC11" H 1150 1950 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 1950 50  0001 C CNN
 	1    1000 1950
 	1    0    0    -1  
@@ -966,7 +966,7 @@ U 1 1 5F124780
 P 950 5950
 F 0 "SW13" H 950 6150 50  0000 C CNN
 F 1 "SW_Push" H 950 5850 50  0000 C CNN
-F 2 "" H 950 6150 50  0001 C CNN
+F 2 "josh-buttons-switches:Panasonic_EVQPUL_EVQPUC" H 950 6150 50  0001 C CNN
 F 3 "~" H 950 6150 50  0001 C CNN
 	1    950  5950
 	1    0    0    -1  
