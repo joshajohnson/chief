@@ -1767,146 +1767,47 @@ LED
 Wire Wire Line
 	3450 6750 3050 6750
 $Comp
-L chief-rescue:RN-josh-passive RN1
-U 1 1 6036DBD5
-P 7000 4400
-F 0 "RN1" V 6954 4332 50  0000 R CNN
-F 1 "10K" V 7045 4332 50  0000 R CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7000 4400 50  0001 C CNN
-F 3 "" V 7000 4400 50  0001 C CNN
-	1    7000 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN1
-U 2 1 6036DBDB
-P 7300 4400
-F 0 "RN1" V 7254 4468 50  0000 L CNN
-F 1 "10K" V 7345 4468 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7300 4400 50  0001 C CNN
-F 3 "" V 7300 4400 50  0001 C CNN
-	2    7300 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN1
-U 3 1 60381BB2
-P 7700 4600
-F 0 "RN1" H 7700 4700 50  0000 C CNN
-F 1 "10K" H 7700 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 4600 50  0001 C CNN
-F 3 "" V 7700 4600 50  0001 C CNN
-	3    7700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN1
-U 4 1 60381BB8
-P 7700 4700
-F 0 "RN1" H 7700 4600 50  0000 C CNN
-F 1 "10K" H 7700 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 4700 50  0001 C CNN
-F 3 "" V 7700 4700 50  0001 C CNN
-	4    7700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN2
-U 1 1 6041B706
-P 9300 4400
-F 0 "RN2" V 9254 4332 50  0000 R CNN
-F 1 "10K" V 9345 4332 50  0000 R CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9300 4400 50  0001 C CNN
-F 3 "" V 9300 4400 50  0001 C CNN
-	1    9300 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN2
-U 2 1 6041B70C
-P 9600 4400
-F 0 "RN2" V 9554 4468 50  0000 L CNN
-F 1 "10K" V 9645 4468 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9600 4400 50  0001 C CNN
-F 3 "" V 9600 4400 50  0001 C CNN
-	2    9600 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN2
-U 3 1 6042F6BD
+L chief-rescue:RN-josh-passive RN3
+U 1 1 60443F88
 P 10000 4600
-F 0 "RN2" H 10000 4700 50  0000 C CNN
+F 0 "RN3" H 10000 4700 50  0000 C CNN
 F 1 "10K" H 10000 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10000 4600 50  0001 C CNN
 F 3 "" V 10000 4600 50  0001 C CNN
-	3    10000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN2
-U 4 1 6042F6C3
-P 10000 4700
-F 0 "RN2" H 10000 4600 50  0000 C CNN
-F 1 "10K" H 10000 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10000 4700 50  0001 C CNN
-F 3 "" V 10000 4700 50  0001 C CNN
-	4    10000 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN3
-U 3 1 60443F88
-P 7700 5550
-F 0 "RN3" H 7700 5650 50  0000 C CNN
-F 1 "10K" H 7700 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 5550 50  0001 C CNN
-F 3 "" V 7700 5550 50  0001 C CNN
-	3    7700 5550
-	1    0    0    -1  
+	1    10000 4600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN3
 U 4 1 60443F8E
-P 7700 5650
-F 0 "RN3" H 7700 5550 50  0000 C CNN
-F 1 "10K" H 7700 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 5650 50  0001 C CNN
-F 3 "" V 7700 5650 50  0001 C CNN
-	4    7700 5650
-	1    0    0    -1  
+P 10000 4700
+F 0 "RN3" H 10000 4600 50  0000 C CNN
+F 1 "10K" H 10000 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10000 4700 50  0001 C CNN
+F 3 "" V 10000 4700 50  0001 C CNN
+	4    10000 4700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN3
-U 1 1 60457CEF
-P 7000 5350
-F 0 "RN3" V 6954 5282 50  0000 R CNN
-F 1 "10K" V 7045 5282 50  0000 R CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7000 5350 50  0001 C CNN
-F 3 "" V 7000 5350 50  0001 C CNN
-	1    7000 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN3
-U 2 1 60457CF5
-P 7300 5350
-F 0 "RN3" V 7254 5418 50  0000 L CNN
-F 1 "10K" V 7345 5418 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7300 5350 50  0001 C CNN
-F 3 "" V 7300 5350 50  0001 C CNN
-	2    7300 5350
+U 3 1 60457CEF
+P 9300 4400
+F 0 "RN3" V 9254 4332 50  0000 R CNN
+F 1 "10K" V 9345 4332 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9300 4400 50  0001 C CNN
+F 3 "" V 9300 4400 50  0001 C CNN
+	3    9300 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN4
-U 1 1 6046BFA6
+U 3 1 6046BFA6
 P 9300 5350
 F 0 "RN4" V 9254 5282 50  0000 R CNN
 F 1 "10K" V 9345 5282 50  0000 R CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9300 5350 50  0001 C CNN
 F 3 "" V 9300 5350 50  0001 C CNN
-	1    9300 5350
+	3    9300 5350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1922,14 +1823,14 @@ F 3 "" V 9600 5350 50  0001 C CNN
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN4
-U 3 1 6047F94B
+U 1 1 6047F94B
 P 10000 5550
 F 0 "RN4" H 10000 5650 50  0000 C CNN
 F 1 "10K" H 10000 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10000 5550 50  0001 C CNN
 F 3 "" V 10000 5550 50  0001 C CNN
-	3    10000 5550
-	1    0    0    -1  
+	1    10000 5550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN4
@@ -1940,18 +1841,18 @@ F 1 "10K" H 10000 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10000 5650 50  0001 C CNN
 F 3 "" V 10000 5650 50  0001 C CNN
 	4    10000 5650
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN5
 U 1 1 604AA3D6
 P 1800 1550
-F 0 "RN5" H 1800 1450 50  0000 C CNN
+F 0 "RN5" H 1800 1650 50  0000 C CNN
 F 1 "5K1" H 1800 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1800 1550 50  0001 C CNN
 F 3 "" V 1800 1550 50  0001 C CNN
 	1    1800 1550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L chief-rescue:RN-josh-passive RN5
@@ -2174,51 +2075,200 @@ Wire Wire Line
 	6100 6800 6100 6850
 Text Label 8700 4600 2    50   ~ 0
 ENC1A_DB
-Text Label 5950 4200 2    50   ~ 0
+Text Label 5200 6050 2    50   ~ 0
 ENC1A_DB
-Text Label 5950 4300 2    50   ~ 0
+Text Label 3000 6650 0    50   ~ 0
 ENC1B_DB
-Text Label 5950 4400 2    50   ~ 0
+Text Label 5200 6650 2    50   ~ 0
 ENC2A_DB
-Text Label 5950 4500 2    50   ~ 0
+Text Label 5200 6750 2    50   ~ 0
 ENC2B_DB
-Text Label 5950 4900 2    50   ~ 0
+Text Label 3000 4950 0    50   ~ 0
 ENC4B_DB
-Text Label 5950 4800 2    50   ~ 0
+Text Label 3000 5050 0    50   ~ 0
 ENC4A_DB
-Text Label 5950 4600 2    50   ~ 0
+Text Label 3000 5850 0    50   ~ 0
 ENC3A_DB
-Text Label 5950 4700 2    50   ~ 0
+Text Label 3000 5950 0    50   ~ 0
 ENC3B_DB
 Text Label 5200 5650 2    50   ~ 0
 BUZZER
-Text Label 5950 5000 2    50   ~ 0
-LED
-Text Label 5450 4200 2    50   ~ 0
+Text Label 5200 6250 2    50   ~ 0
 SW1
-Text Label 5450 4300 2    50   ~ 0
+Text Label 5200 6150 2    50   ~ 0
 SW2
-Text Label 5450 4400 2    50   ~ 0
-SW3
-Text Label 5450 4500 2    50   ~ 0
-SW4
-Text Label 5450 4600 2    50   ~ 0
-SW5
-Text Label 5450 4700 2    50   ~ 0
+Text Label 3050 6450 0    50   ~ 0
 SW6
-Text Label 5450 4800 2    50   ~ 0
+Text Label 3050 5750 0    50   ~ 0
 SW7
-Text Label 5450 4900 2    50   ~ 0
+Text Label 3050 6050 0    50   ~ 0
 SW8
-Text Label 5450 5000 2    50   ~ 0
+Text Label 5200 5550 2    50   ~ 0
 SW9
-Text Label 5450 5100 2    50   ~ 0
+Text Label 3050 4850 0    50   ~ 0
 SW10
-Text Label 5450 5200 2    50   ~ 0
-SW11
-Text Label 5450 5300 2    50   ~ 0
-SW12
 Wire Wire Line
 	5200 5650 4750 5650
 NoConn ~ 4750 5750
+$Comp
+L chief-rescue:RN-josh-passive RN3
+U 2 1 60457CF5
+P 9600 4400
+F 0 "RN3" V 9554 4468 50  0000 L CNN
+F 1 "10K" V 9645 4468 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9600 4400 50  0001 C CNN
+F 3 "" V 9600 4400 50  0001 C CNN
+	2    9600 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 6250 5200 6250
+$Comp
+L chief-rescue:RN-josh-passive RN2
+U 1 1 6042F6BD
+P 7700 5550
+F 0 "RN2" H 7700 5650 50  0000 C CNN
+F 1 "10K" H 7700 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 5550 50  0001 C CNN
+F 3 "" V 7700 5550 50  0001 C CNN
+	1    7700 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN2
+U 4 1 6042F6C3
+P 7700 5650
+F 0 "RN2" H 7700 5550 50  0000 C CNN
+F 1 "10K" H 7700 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 5650 50  0001 C CNN
+F 3 "" V 7700 5650 50  0001 C CNN
+	4    7700 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN2
+U 3 1 6041B706
+P 7000 5350
+F 0 "RN2" V 6954 5282 50  0000 R CNN
+F 1 "10K" V 7045 5282 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7000 5350 50  0001 C CNN
+F 3 "" V 7000 5350 50  0001 C CNN
+	3    7000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN2
+U 2 1 6041B70C
+P 7300 5350
+F 0 "RN2" V 7254 5418 50  0000 L CNN
+F 1 "10K" V 7345 5418 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7300 5350 50  0001 C CNN
+F 3 "" V 7300 5350 50  0001 C CNN
+	2    7300 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 6050 3450 6050
+Wire Wire Line
+	5200 6150 4750 6150
+Wire Wire Line
+	4750 5550 5200 5550
+Text Label 5200 5250 2    50   ~ 0
+SW12
+Wire Wire Line
+	4750 5250 5200 5250
+Wire Wire Line
+	3050 6450 3450 6450
+$Comp
+L chief-rescue:RN-josh-passive RN1
+U 4 1 60381BB8
+P 7700 4700
+F 0 "RN1" H 7700 4800 50  0000 C CNN
+F 1 "10K" H 7700 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 4700 50  0001 C CNN
+F 3 "" V 7700 4700 50  0001 C CNN
+	4    7700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN1
+U 2 1 6036DBDB
+P 7300 4400
+F 0 "RN1" V 7254 4468 50  0000 L CNN
+F 1 "10K" V 7345 4468 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7300 4400 50  0001 C CNN
+F 3 "" V 7300 4400 50  0001 C CNN
+	2    7300 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN1
+U 1 1 60381BB2
+P 7700 4600
+F 0 "RN1" H 7700 4500 50  0000 C CNN
+F 1 "10K" H 7700 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7700 4600 50  0001 C CNN
+F 3 "" V 7700 4600 50  0001 C CNN
+	1    7700 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L chief-rescue:RN-josh-passive RN1
+U 3 1 6036DBD5
+P 7000 4400
+F 0 "RN1" V 6954 4332 50  0000 R CNN
+F 1 "10K" V 7045 4332 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7000 4400 50  0001 C CNN
+F 3 "" V 7000 4400 50  0001 C CNN
+	3    7000 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 6650 3000 6650
+Wire Wire Line
+	4750 6050 5200 6050
+Text Label 3050 6550 0    50   ~ 0
+SW3
+Wire Wire Line
+	3050 6550 3450 6550
+Wire Wire Line
+	4750 6650 5200 6650
+Wire Wire Line
+	5200 6750 4750 6750
+Wire Wire Line
+	3050 5650 3450 5650
+Wire Wire Line
+	3450 5550 3000 5550
+Text Label 3000 5550 0    50   ~ 0
+SW5
+Text Label 3050 5650 0    50   ~ 0
+SW4
+Wire Wire Line
+	3050 5750 3450 5750
+Wire Wire Line
+	3000 5950 3450 5950
+Wire Wire Line
+	3000 5850 3450 5850
+Wire Wire Line
+	3050 4850 3450 4850
+Wire Wire Line
+	3000 4950 3450 4950
+Wire Wire Line
+	3000 5050 3450 5050
+Wire Wire Line
+	3450 4550 3000 4550
+Text Label 3000 4550 0    50   ~ 0
+SW11
+NoConn ~ 3450 4650
+NoConn ~ 3450 5250
+NoConn ~ 3450 5350
+NoConn ~ 3450 5450
+NoConn ~ 4750 5350
+NoConn ~ 4750 5450
+NoConn ~ 4750 5850
+NoConn ~ 4750 5950
+NoConn ~ 4750 6550
+NoConn ~ 3450 6350
+NoConn ~ 3450 6250
+NoConn ~ 3450 6150
 $EndSCHEMATC
