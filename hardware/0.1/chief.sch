@@ -499,17 +499,6 @@ F 3 "" H 2450 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 2650 2450 2600
-$Comp
-L MCU_ST_STM32F0:STM32F072C8Tx U3
-U 1 1 5EFC05F6
-P 4150 5450
-F 0 "U3" V 4050 5450 50  0000 C CNN
-F 1 "STM32F072C8Tx" V 4150 5450 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3550 4050 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 4150 5450 50  0001 C CNN
-	1    4150 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10850 1100 11100 1100
 Wire Wire Line
@@ -1762,10 +1751,10 @@ Wire Wire Line
 Connection ~ 4100 7000
 Wire Wire Line
 	4100 7000 4150 7000
-Text Label 3050 6750 0    50   ~ 0
+Text Label 3000 6750 0    50   ~ 0
 LED
 Wire Wire Line
-	3450 6750 3050 6750
+	3450 6750 3000 6750
 $Comp
 L chief-rescue:RN-josh-passive RN3
 U 1 1 60443F88
@@ -1956,14 +1945,14 @@ Wire Wire Line
 	3900 3300 4350 3300
 Text Label 1950 5300 0    50   ~ 0
 nRST
-Text Label 3050 4150 0    50   ~ 0
+Text Label 3000 4150 0    50   ~ 0
 nRST
 Wire Wire Line
-	3050 4150 3450 4150
-Text Label 3050 4350 0    50   ~ 0
+	3000 4150 3450 4150
+Text Label 3000 4350 0    50   ~ 0
 BOOT0
 Wire Wire Line
-	3050 4350 3450 4350
+	3000 4350 3450 4350
 Text Label 5200 6350 2    50   ~ 0
 USB_D-
 Text Label 5200 6450 2    50   ~ 0
@@ -2075,41 +2064,32 @@ Wire Wire Line
 	6100 6800 6100 6850
 Text Label 8700 4600 2    50   ~ 0
 ENC1A_DB
-Text Label 5200 6050 2    50   ~ 0
+Text Label 5200 5950 2    50   ~ 0
 ENC1A_DB
-Text Label 3000 6650 0    50   ~ 0
-ENC1B_DB
-Text Label 5200 6650 2    50   ~ 0
-ENC2A_DB
-Text Label 5200 6750 2    50   ~ 0
-ENC2B_DB
-Text Label 3000 4950 0    50   ~ 0
+Text Label 3000 6150 0    50   ~ 0
 ENC4B_DB
-Text Label 3000 5050 0    50   ~ 0
-ENC4A_DB
 Text Label 3000 5850 0    50   ~ 0
+ENC4A_DB
+Text Label 5200 6650 2    50   ~ 0
 ENC3A_DB
-Text Label 3000 5950 0    50   ~ 0
+Text Label 5200 6750 2    50   ~ 0
 ENC3B_DB
 Text Label 5200 5650 2    50   ~ 0
 BUZZER
-Text Label 5200 6250 2    50   ~ 0
+Text Label 3000 5450 0    50   ~ 0
 SW1
-Text Label 5200 6150 2    50   ~ 0
+Text Label 3000 5350 0    50   ~ 0
 SW2
-Text Label 3050 6450 0    50   ~ 0
+Text Label 5200 5750 2    50   ~ 0
 SW6
-Text Label 3050 5750 0    50   ~ 0
+Text Label 5200 6550 2    50   ~ 0
 SW7
-Text Label 3050 6050 0    50   ~ 0
-SW8
-Text Label 5200 5550 2    50   ~ 0
+Text Label 3000 4850 0    50   ~ 0
 SW9
-Text Label 3050 4850 0    50   ~ 0
+Text Label 3000 5650 0    50   ~ 0
 SW10
 Wire Wire Line
 	5200 5650 4750 5650
-NoConn ~ 4750 5750
 $Comp
 L chief-rescue:RN-josh-passive RN3
 U 2 1 60457CF5
@@ -2122,7 +2102,7 @@ F 3 "" V 9600 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 6250 5200 6250
+	3450 5450 3000 5450
 $Comp
 L chief-rescue:RN-josh-passive RN2
 U 1 1 6042F6BD
@@ -2168,17 +2148,15 @@ F 3 "" V 7300 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3050 6050 3450 6050
+	3000 5350 3450 5350
 Wire Wire Line
-	5200 6150 4750 6150
-Wire Wire Line
-	4750 5550 5200 5550
+	3450 4850 3000 4850
 Text Label 5200 5250 2    50   ~ 0
 SW12
 Wire Wire Line
 	4750 5250 5200 5250
 Wire Wire Line
-	3050 6450 3450 6450
+	5200 5750 4750 5750
 $Comp
 L chief-rescue:RN-josh-passive RN1
 U 4 1 60381BB8
@@ -2224,51 +2202,73 @@ F 3 "" V 7000 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3450 6650 3000 6650
+	4750 5950 5200 5950
 Wire Wire Line
-	4750 6050 5200 6050
-Text Label 3050 6550 0    50   ~ 0
-SW3
+	5200 6050 4750 6050
+Text Label 5200 6050 2    50   ~ 0
+SW4
 Wire Wire Line
-	3050 6550 3450 6550
-Wire Wire Line
-	4750 6650 5200 6650
+	5200 6550 4750 6550
 Wire Wire Line
 	5200 6750 4750 6750
 Wire Wire Line
-	3050 5650 3450 5650
+	5200 6650 4750 6650
 Wire Wire Line
-	3450 5550 3000 5550
-Text Label 3000 5550 0    50   ~ 0
-SW5
-Text Label 3050 5650 0    50   ~ 0
-SW4
+	3000 5650 3450 5650
 Wire Wire Line
-	3050 5750 3450 5750
-Wire Wire Line
-	3000 5950 3450 5950
+	3000 6150 3450 6150
 Wire Wire Line
 	3000 5850 3450 5850
 Wire Wire Line
-	3050 4850 3450 4850
-Wire Wire Line
-	3000 4950 3450 4950
-Wire Wire Line
-	3000 5050 3450 5050
-Wire Wire Line
-	3450 4550 3000 4550
-Text Label 3000 4550 0    50   ~ 0
+	3450 4950 3000 4950
+Text Label 3000 4950 0    50   ~ 0
 SW11
+Text Label 5200 5850 2    50   ~ 0
+SW3
+Wire Wire Line
+	5200 5850 4750 5850
+Wire Wire Line
+	3450 5250 3000 5250
+Text Label 3000 5250 0    50   ~ 0
+ENC1B_DB
+Wire Wire Line
+	3000 6650 3450 6650
+Wire Wire Line
+	3450 6450 3000 6450
+Text Label 3000 6650 0    50   ~ 0
+ENC2B_DB
+Text Label 3000 6450 0    50   ~ 0
+ENC2A_DB
+$Comp
+L MCU_ST_STM32F0:STM32F072C8Tx U3
+U 1 1 5EFC05F6
+P 4150 5450
+F 0 "U3" V 4050 5450 50  0000 C CNN
+F 1 "STM32F072C8Tx" V 4150 5450 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3550 4050 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 4150 5450 50  0001 C CNN
+	1    4150 5450
+	1    0    0    -1  
+$EndComp
+Text Label 3000 6550 0    50   ~ 0
+SW5
+Wire Wire Line
+	3450 6550 3000 6550
+Wire Wire Line
+	3000 5550 3450 5550
+Text Label 3000 5550 0    50   ~ 0
+SW8
+NoConn ~ 3450 4550
 NoConn ~ 3450 4650
-NoConn ~ 3450 5250
-NoConn ~ 3450 5350
-NoConn ~ 3450 5450
-NoConn ~ 4750 5350
-NoConn ~ 4750 5450
-NoConn ~ 4750 5850
-NoConn ~ 4750 5950
-NoConn ~ 4750 6550
-NoConn ~ 3450 6350
+NoConn ~ 3450 5050
+NoConn ~ 3450 5750
+NoConn ~ 3450 5950
+NoConn ~ 3450 6050
 NoConn ~ 3450 6250
-NoConn ~ 3450 6150
+NoConn ~ 3450 6350
+NoConn ~ 4750 6150
+NoConn ~ 4750 6250
+NoConn ~ 4750 5550
+NoConn ~ 4750 5450
+NoConn ~ 4750 5350
 $EndSCHEMATC
