@@ -1833,28 +1833,6 @@ F 3 "" V 10000 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L chief-rescue:RN-josh-passive RN5
-U 1 1 604AA3D6
-P 1800 1550
-F 0 "RN5" H 1800 1650 50  0000 C CNN
-F 1 "5K1" H 1800 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1800 1550 50  0001 C CNN
-F 3 "" V 1800 1550 50  0001 C CNN
-	1    1800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L chief-rescue:RN-josh-passive RN5
-U 2 1 604AA3DC
-P 1800 1650
-F 0 "RN5" H 1800 1550 50  0000 C CNN
-F 1 "5K1" H 1800 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1800 1650 50  0001 C CNN
-F 3 "" V 1800 1650 50  0001 C CNN
-	2    1800 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C15
 U 1 1 605467E0
 P 3900 3500
@@ -2066,9 +2044,9 @@ Text Label 8700 4600 2    50   ~ 0
 ENC1A_DB
 Text Label 5200 5950 2    50   ~ 0
 ENC1A_DB
-Text Label 3000 6150 0    50   ~ 0
-ENC4B_DB
 Text Label 3000 5850 0    50   ~ 0
+ENC4B_DB
+Text Label 3000 5750 0    50   ~ 0
 ENC4A_DB
 Text Label 5200 6650 2    50   ~ 0
 ENC3A_DB
@@ -2084,7 +2062,7 @@ Text Label 5200 5750 2    50   ~ 0
 SW6
 Text Label 5200 6550 2    50   ~ 0
 SW7
-Text Label 3000 4850 0    50   ~ 0
+Text Label 3000 6150 0    50   ~ 0
 SW9
 Text Label 3000 5650 0    50   ~ 0
 SW10
@@ -2150,11 +2128,11 @@ $EndComp
 Wire Wire Line
 	3000 5350 3450 5350
 Wire Wire Line
-	3450 4850 3000 4850
-Text Label 5200 5250 2    50   ~ 0
+	3450 6150 3000 6150
+Text Label 3000 6050 0    50   ~ 0
 SW12
 Wire Wire Line
-	4750 5250 5200 5250
+	3450 6050 3000 6050
 Wire Wire Line
 	5200 5750 4750 5750
 $Comp
@@ -2216,12 +2194,12 @@ Wire Wire Line
 Wire Wire Line
 	3000 5650 3450 5650
 Wire Wire Line
-	3000 6150 3450 6150
-Wire Wire Line
 	3000 5850 3450 5850
 Wire Wire Line
-	3450 4950 3000 4950
-Text Label 3000 4950 0    50   ~ 0
+	3000 5750 3450 5750
+Wire Wire Line
+	3450 5950 3000 5950
+Text Label 3000 5950 0    50   ~ 0
 SW11
 Text Label 5200 5850 2    50   ~ 0
 SW3
@@ -2232,13 +2210,9 @@ Wire Wire Line
 Text Label 3000 5250 0    50   ~ 0
 ENC1B_DB
 Wire Wire Line
-	3000 6650 3450 6650
-Wire Wire Line
-	3450 6450 3000 6450
-Text Label 3000 6650 0    50   ~ 0
+	3000 6550 3450 6550
+Text Label 3000 6550 0    50   ~ 0
 ENC2B_DB
-Text Label 3000 6450 0    50   ~ 0
-ENC2A_DB
 $Comp
 L MCU_ST_STM32F0:STM32F072C8Tx U3
 U 1 1 5EFC05F6
@@ -2250,10 +2224,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    4150 5450
 	1    0    0    -1  
 $EndComp
-Text Label 3000 6550 0    50   ~ 0
-SW5
-Wire Wire Line
-	3450 6550 3000 6550
 Wire Wire Line
 	3000 5550 3450 5550
 Text Label 3000 5550 0    50   ~ 0
@@ -2261,9 +2231,6 @@ SW8
 NoConn ~ 3450 4550
 NoConn ~ 3450 4650
 NoConn ~ 3450 5050
-NoConn ~ 3450 5750
-NoConn ~ 3450 5950
-NoConn ~ 3450 6050
 NoConn ~ 3450 6250
 NoConn ~ 3450 6350
 NoConn ~ 4750 6150
@@ -2271,4 +2238,37 @@ NoConn ~ 4750 6250
 NoConn ~ 4750 5550
 NoConn ~ 4750 5450
 NoConn ~ 4750 5350
+$Comp
+L Device:R R6
+U 1 1 5F016ED5
+P 1800 1550
+F 0 "R6" V 1700 1550 50  0000 C CNN
+F 1 "5K1" V 1800 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1550 50  0001 C CNN
+F 3 "~" H 1800 1550 50  0001 C CNN
+	1    1800 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F0187ED
+P 1800 1650
+F 0 "R7" V 1900 1650 50  0000 C CNN
+F 1 "5K1" V 1800 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1650 50  0001 C CNN
+F 3 "~" H 1800 1650 50  0001 C CNN
+	1    1800 1650
+	0    1    1    0   
+$EndComp
+Text Label 3000 6450 0    50   ~ 0
+ENC2A_DB
+Wire Wire Line
+	3450 6450 3000 6450
+Wire Wire Line
+	3450 6650 3000 6650
+Text Label 3000 6650 0    50   ~ 0
+SW5
+NoConn ~ 3450 4950
+NoConn ~ 3450 4850
+NoConn ~ 4750 5250
 $EndSCHEMATC
